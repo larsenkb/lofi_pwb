@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name lofi)(type KiCad)(uri ${KIPRJMOD}/lofi.pretty)(options "")(descr ""))
+)

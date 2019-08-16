@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lofi)(type Legacy)(uri ${KIPRJMOD}/lofi.lib)(options "")(descr ""))
+)

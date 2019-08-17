@@ -1,4 +1,4 @@
-(module SOIC-14 (layer F.Cu) (tedit 5D57099F)
+(module SOIC-14 (layer F.Cu) (tedit 5D579754)
   (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "SOIC SO")
   (attr smd)
@@ -20,6 +20,7 @@
   (fp_line (start -1.7 4.35) (end 1.7 4.35) (layer F.SilkS) (width 0.12))
   (fp_line (start 1.7 4.35) (end 1.7 -4.35) (layer F.SilkS) (width 0.12))
   (fp_line (start 1.7 -4.35) (end -0.95 -4.35) (layer F.SilkS) (width 0.12))
+  (fp_circle (center -3.6 -4.4) (end -3.55 -4.35) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -2.8 -3.81) (size 1.8 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.8 -2.54) (size 1.8 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -2.8 -1.27) (size 1.8 0.6) (layers F.Cu F.Paste F.Mask))

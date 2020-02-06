@@ -50,6 +50,7 @@ See config_t structure for details.
 ---
 
 The front view of lofi looks like this:
+
 !(./lofi_front.jpg)
 
 The back view of lofi looks like this:

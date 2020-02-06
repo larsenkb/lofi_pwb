@@ -1,33 +1,33 @@
 # lofi window/door sensor
 Uses attiny + nrf24l01p + tpl5111 to achieve very low power.
-//-------------------------------------------------------------
-// lofi + nrf24
-//-------------------------------------------------------------
-// This project was influenced by a LoFi board designed by
-// David Cook and entered in a hackaday contest.
-// See https://hackaday.io/project/1552-lofi
-//
-// At the beginning, I used OshPark to make some of his
-// boards and hacked them to work with an NRF24l01+.
-//
-// I have mated the lofi board with a nrf24l01+ instead of using
-// the 433 MHz transmitter described at the above link.
-//
-// I'm using the nrf24 in its very basic form, using minimal
-// features.
-//
-// I am using parts of xprintf.[ch] by ChaN (see xprintf.c for copyright)
-// I am using parts of nrf24.[ch] by <ihsan@ehribar.me>
-// (see nrf24.c for license)
-//
-// The lofi+nrf24 combo draws ~2 uA in the idle mode.
-// It can monitor one reed switch, Vcc and internal temperature.
-// It uses the internal RC oscillator so timing is not very accurate.
-// The switch can be configured to generate an interrupt on Pin Change
-// which will trigger a transmission. Otherwise, it is only polled
-// and switch state will be transmitted at the polling frequency.
-// The polling period is configured in eeprom, to be a multiple
-// of the TPL5111 period.
+---
+lofi + nrf24
+---
+This project was influenced by a LoFi board designed by
+David Cook and entered in a hackaday contest.
+See https://hackaday.io/project/1552-lofi
+
+At the beginning, I used OshPark to make some of his
+boards and hacked them to work with an NRF24l01+.
+
+I have mated the lofi board with a nrf24l01+ instead of using
+the 433 MHz transmitter described at the above link.
+
+I'm using the nrf24 in its very basic form, using minimal
+features.
+
+I am using parts of xprintf.[ch] by ChaN (see xprintf.c for copyright)
+I am using parts of nrf24.[ch] by <ihsan@ehribar.me>
+(see nrf24.c for license)
+
+The lofi+nrf24 combo draws ~2 uA in the idle mode.
+It can monitor one reed switch, Vcc and internal temperature.
+It uses the internal RC oscillator so timing is not very accurate.
+The switch can be configured to generate an interrupt on Pin Change
+which will trigger a transmission. Otherwise, it is only polled
+and switch state will be transmitted at the polling frequency.
+The polling period is configured in eeprom, to be a multiple
+of the TPL5111 period.
 //
 // A 10-bit incrementing count can also be enabled and will be
 // sent at a frequency determined by eeprom and TPL5111.

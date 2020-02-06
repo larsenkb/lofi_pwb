@@ -28,6 +28,8 @@ and switch state will be transmitted at the polling frequency.
 The polling period is configured in eeprom, to be a multiple
 of the TPL5111 period.
 
+The LDO can be installed if you want to power lofi from a voltage > 3.3V. Otherwise, just solder a jumper across the Vin to Vout of the LDO.
+
 A 10-bit incrementing count can also be enabled and will be
 sent at a frequency determined by eeprom and TPL5111.
 

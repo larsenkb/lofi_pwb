@@ -50,16 +50,15 @@ See config_t structure for details.
 ---
 
 The front view of lofi looks like this:
-
-!(./lofi_front.jpg)
+![](./lofi_front.jpg)
 
 The back view of lofi looks like this:
-!(./lofi_back.jpg)
+![](./lofi_back.jpg)
 
 The folded view of lofi looks like this:
-!(./lofi_folded.jpg)
+![](./lofi_folded.jpg)
 
 I used a clothes pin to make my programmer:
-!(./pogo_pgmr.jpg)
+![](./pogo_pgmr.jpg)
 
 

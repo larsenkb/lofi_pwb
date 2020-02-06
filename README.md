@@ -1,4 +1,5 @@
 # lofi window/door sensor
+---
 Uses attiny84a + nrf24l01p + tpl5111 to achieve very low power.
 ---
 This project was influenced by a LoFi board designed by

@@ -30,6 +30,10 @@ of the TPL5111 period.
 
 The LDO can be installed if you want to power lofi from a voltage > 3.3V. Otherwise, just solder a jumper across the Vin to Vout of the LDO.
 
+Resistors R1, R2, and R3 are in parallel-series so you can get a precise timing resistance with less precise resistors.
+
+I use a SPDT reed switch so that I do not need a pull-up or pull-down resistor, thus reducing power further.
+
 A 10-bit incrementing count can also be enabled and will be
 sent at a frequency determined by eeprom and TPL5111.
 

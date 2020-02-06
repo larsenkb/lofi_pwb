@@ -42,14 +42,23 @@ have to send all messages each time. I don't think there
 would be a method of only sending Vcc messages every n
 DRV assertions.
 
-I'm using spin loop delays. See util/delay basic.h.
-_delay_loop_1 loop is three cycles and takes an 8-bit
-loop counter. 3us * 256 is max delay.
-_delay_loop_2 loop is four cycles and takes a 16-bit
-loop counter. 4us * 65536 is max delay.
+I'm using spin loop delays. See util/delay basic.h.  delay_loop_1 loop is three cycles and takes an 8-bit loop counter. 3us * 256 is max delay.  delay_loop_2 loop is four cycles and takes a 16-bit loop counter. 4us * 65536 is max delay.
 
 Configuration is stored in the eeprom starting at addr 0.
 See config_t structure for details.
 
 ---
+
+The front view of lofi looks like this:
+!(./lofi_front.jpg)
+
+The back view of lofi looks like this:
+!(./lofi_back.jpg)
+
+The folded view of lofi looks like this:
+!(./lofi_folded.jpg)
+
+I used a clothes pin to make my programmer:
+!(./pogo_pgmr.jpg)
+
 
